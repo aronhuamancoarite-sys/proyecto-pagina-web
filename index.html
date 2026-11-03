@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AutoMax - Venta de Carros</title>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <table width="100%" cellpadding="10">
+            <tr>
+                <td width="45%">
+                    <h1>AutoMax</h1>
+                    <h3>Concesionario de Automóviles</h3>
+                </td>
+
+                <td>
+                    <h2>Encuentra el carro ideal para ti</h2>
+                    <h4>Calidad, confianza y buenos precios</h4>
+                    <h5>Vehículos para cada necesidad</h5>
+                    <h6>Tu próximo viaje comienza aquí</h6>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <hr>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <center>
+            <a href="#inicio">Inicio</a> |
+            <a href="#carros">Carros</a> |
+            <a href="#precios">Precios</a> |
+            <a href="#pedido">Solicitar información</a> |
+            <a href="#contacto">Contacto</a>
+        </center>
+    </nav>
+
+    <hr>
+
+    <!-- INICIO -->
+    <section id="inicio">
+        <table width="100%" cellpadding="10">
+            <tr>
+                <td width="55%">
+                    <h2>Bienvenido a AutoMax</h2>
+
+                    <p>Somos un concesionario dedicado a la venta de
+                    automóviles para diferentes necesidades y presupuestos.</p>
+
+                    <p>Te ayudamos a encontrar un vehículo cómodo,
+                    confiable y adecuado para tu estilo de vida.</p>
+
+                    <h3>Tipos de vehículos</h3>
+
+                    <ul>
+                        <li>Sedanes</li>
+                        <li>SUV</li>
+                        <li>Camionetas</li>
+                        <li>Deportivos</li>
+                    </ul>
+                </td>
+
+                <td align="center">
+                    <img src="carros.png"
+                         alt="Automóvil de AutoMax"
+                         width="300" height="180">
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- CATÁLOGO DE CARROS -->
+    <section id="carros">
+        <h2>Nuestros vehículos</h2>
+
+        <table width="100%" cellpadding="10">
+            <tr>
+                <td width="33%" valign="top">
+                    <h3>Toyota Corolla</h3>
+
+                    <img src="toyota.png"
+                         alt="Automóvil Toyota Corolla"
+                         width="180" height="120">
+
+                    <p>Tipo: Sedán</p>
+                    <p>Ideal para la ciudad y viajes familiares.</p>
+                </td>
+
+                <td width="33%" valign="top">
+                    <h3>Hyundai Tucson</h3>
+
+                    <img src="hyunday.png"
+                         alt="SUV Hyundai Tucson"
+                         width="180" height="120">
+
+                    <p>Tipo: SUV</p>
+                    <p>Espacioso y cómodo para viajar.</p>
+                </td>
+
+                <td width="33%" valign="top">
+                    <h3>Kia Sportage</h3>
+
+                    <img src="kia.png"
+                         alt="SUV Kia Sportage"
+                         width="180" height="120">
+
+                    <p>Tipo: SUV</p>
+                    <p>Diseño moderno y amplio espacio interior.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- TABLA DE PRECIOS -->
+    <section id="precios">
+        <h2>Lista de precios</h2>
+
+        <table border="1" width="100%" cellpadding="8">
+
+            <caption>Precios referenciales de vehículos</caption>
+
+            <thead>
+                <tr>
+                    <th>Vehículo</th>
+                    <th>Tipo</th>
+                    <th>Año</th>
+                    <th>Precio</th>
+                    <th>Disponibilidad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Toyota Corolla</td>
+                    <td>Sedán</td>
+                    <td>2024</td>
+                    <td>US$ 20,000</td>
+                    <td>Disponible</td>
+                </tr>
+
+                <tr>
+                    <td>Hyundai Tucson</td>
+                    <td>SUV</td>
+                    <td>2024</td>
+                    <td>US$ 28,000</td>
+                    <td>Disponible</td>
+                </tr>
+
+                <tr>
+                    <td>Kia Sportage</td>
+                    <td>SUV</td>
+                    <td>2024</td>
+                    <td>US$ 27,000</td>
+                    <td>Disponible</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- FORMULARIO -->
+    <section id="pedido">
+        <h2>Solicita información</h2>
+
+        <p>Completa el formulario para consultar sobre nuestros vehículos.</p>
+
+        <form action="#" method="get">
+
+            <table width="100%" cellpadding="8">
+                <tr>
+                    <td width="50%" valign="top">
+
+                        <label for="nombre">Nombre completo:</label>
+                        <br>
+
+                        <input type="text" id="nombre" name="nombre"
+                               placeholder="Escribe tu nombre"
+                               size="40" required>
+
+                        <br><br>
+
+                        <label for="correo">Correo electrónico:</label>
+                        <br>
+
+                        <input type="email" id="correo" name="correo"
+                               placeholder="ejemplo@gmail.com"
+                               size="40" required>
+
+                        <br><br>
+
+                        <label for="telefono">Número de teléfono:</label>
+                        <br>
+
+                        <input type="tel" id="telefono" name="telefono"
+                               placeholder="999999999" size="40">
+
+                    </td>
+
+                    <td valign="top">
+
+                        <label for="vehiculo">Selecciona un vehículo:</label>
+                        <br>
+
+                        <select id="vehiculo" name="vehiculo">
+                            <option value="toyota">Toyota Corolla</option>
+                            <option value="hyundai">Hyundai Tucson</option>
+                            <option value="kia">Kia Sportage</option>
+                        </select>
+
+                        <br><br>
+
+                        <label for="presupuesto">Presupuesto aproximado:</label>
+                        <br>
+
+                        <select id="presupuesto" name="presupuesto">
+                            <option value="menos20">Menos de US$ 20,000</option>
+                            <option value="20a25">US$ 20,000 a 25,000</option>
+                            <option value="mas25">Más de US$ 25,000</option>
+                        </select>
+
+                        <br><br>
+
+                        <label for="comentario">Comentarios o consultas:</label>
+                        <br>
+
+                        <textarea id="comentario" name="comentario"
+                                  rows="4" cols="35"
+                                  placeholder="Escribe tu consulta"></textarea>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Enviar consulta</button>
+                        <button type="reset">Limpiar formulario</button>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="contacto">
+
+        <table width="100%" cellpadding="8">
+            <tr>
+                <td>
+                    <h2>Contáctanos</h2>
+
+                    <p>Correo: ventas@automax.com</p>
+                    <p>Teléfono: 999 999 999</p>
+                    <p>Dirección: Lima, Perú</p>
+                </td>
+
+                <td align="right">
+                    <p>&copy; 2026 AutoMax.</p>
+                    <p>Todos los derechos reservados.</p>
+                </td>
+            </tr>
+        </table>
+
+    </footer>
+
+</body>
+
+</html>
